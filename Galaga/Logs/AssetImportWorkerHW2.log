@@ -1,0 +1,1108 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rainw" at "2026-10-29T15:29:03.1957847Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-29T15:29:03Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22820, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              20b0e83b9132446ab22cc494a11a4f7a
+  Correlation Id:          28cb1eeb009a121e2f679e94ad37ea03
+  External correlation Id: 2061372164820095718
+  Machine Id:              Pt26JtnfFhh6oQv1gWN6/5TWVyM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rainw" (connect: 0.00s, validation: 0.00s, handshake: 0.04s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rainw-notifications" at "2026-10-29T15:29:03.2405662Z"
+[Licensing::Module] Licensing Background thread has ended after 0.05s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW2
+-projectPath
+C:/Users/rainw/Desktop/unity projects/Galaga
+-logFile
+Logs/AssetImportWorkerHW2.log
+-srvPort
+64207
+-parentPid
+21264
+-analyticsCloudUserId
+2476042017699
+-analyticsCloudProjectId
+9e392579-6983-407b-8d20-78a73db693fd
+-analyticsLocalProjectId
+ad2a91d81af42b142aece90cc0582459
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+90d477c0156a11957152da995168684eeae1215f
+-cbmMachineId
+Pt26JtnfFhh6oQv1gWN6/5TWVyM=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/rainw/Desktop/unity projects/Galaga
+C:/Users/rainw/Desktop/unity projects/Galaga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [18256]  Target information:
+
+Player connection [18256]  * "[IP] 172.17.101.16 [Port] 0 [Flags] 2 [Guid] 20116278 [EditorId] 20116278 [Version] 1048832 [Id] WindowsEditor(7,wandamaximoff) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18256] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18256] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 5.15 ms, found 5 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rainw/Desktop/unity projects/Galaga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:          NVIDIA
+    VRAM:            7948 MB
+    App VRAM Budget: 7180 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56488
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001951 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.420 seconds
+Domain Reload Profiling: 934ms
+	BeginReloadAssembly (125ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (69ms)
+	LoadAllAssembliesAndSetupDomain (296ms)
+		LoadAssemblies (121ms)
+		TypeCache.Refresh (203ms)
+			TypeCache.ScanAssembly (189ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (421ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (87ms)
+			ProcessInitializeOnLoadAttributes (86ms)
+			ProcessInitializeOnLoadMethodAttributes (165ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2476042017699-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.17 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.808 seconds
+Domain Reload Profiling: 1780ms
+	BeginReloadAssembly (218ms)
+		DisableScriptedObjects (9ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (664ms)
+		LoadAssemblies (363ms)
+		TypeCache.Refresh (176ms)
+			TypeCache.ScanAssembly (161ms)
+		AnalyzeDomain (85ms)
+			BuildScriptInfoCaches (79ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (809ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (111ms)
+			ProcessInitializeOnLoadAttributes (280ms)
+			ProcessInitializeOnLoadMethodAttributes (219ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.01 seconds
+Refreshing native plugins compatible for Editor in 2.14 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7518 unused Assets / (7.6 MB). Loaded Objects now: 8486.
+Memory consumption went from 368.9 MB to 361.3 MB.
+Total: 8.266100 ms (FindLiveObjects: 0.908200 ms CreateObjectMapping: 0.395900 ms MarkObjects: 5.104600 ms  DeleteObjects: 1.576600 ms)
+
+Curl error 23: Failure writing output to destination, passed 293 returned 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.1205591Z
+  Time since last request: 1016729.08135820005555 seconds.
+  importAddress: GUID: 17e31010ea3f44641a9652bb39dd6866 - Path: Assets/Galaga Assets - Importer: PreviewImporter
+Importing 'GUID: 17e31010ea3f44641a9652bb39dd6866 - Path: Assets/Galaga Assets - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 17e31010ea3f44641a9652bb39dd6866' -> (Import Result ID: '88ac07d69871de9f9ad2668356805f4a') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bf8748671774a0a88cd5131797a4bd96 DependenciesID=985258bae704c0ba988781f937074ed4 StaticDependenciesID=d86e0652d2392c2d72d9246ea5e9d028 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.6110981Z
+  Time since last request: 0.4681094 seconds.
+  importAddress: GUID: debf336ae8ff35442a3d858fa4f23d71 - Path: Assets/Galaga Assets/power-up.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: debf336ae8ff35442a3d858fa4f23d71 - Path: Assets/Galaga Assets/power-up.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: debf336ae8ff35442a3d858fa4f23d71' -> (Import Result ID: '5c3052c3df66a3fbde48edf4db160656') in 0.133 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2004b9198553c03fbffe2b37f3898177 DependenciesID=40beb3abaa5753e9b0b6463958ae325b StaticDependenciesID=0d67980f5d2d8ddcf646794b8fc12a2a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.758475Z
+  Time since last request: 0.0006364 seconds.
+  importAddress: GUID: f3c0ce54462031d4fa9cfa990e806baf - Path: Assets/Galaga Assets/Scarlet Witch.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f3c0ce54462031d4fa9cfa990e806baf - Path: Assets/Galaga Assets/Scarlet Witch.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f3c0ce54462031d4fa9cfa990e806baf' -> (Import Result ID: '40f85b6c6b6746e0c24efb6c9fd8c354') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=20d802b436e0f9b0e54f236c0f65017b DependenciesID=8010fb1de0484b1eab352d0ae2db617c StaticDependenciesID=dd18ce7734bf0a1ac0dae554b50d7c2f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.7923217Z
+  Time since last request: 0.0004032 seconds.
+  importAddress: GUID: 6f626fa83fb36a248aafa76ac19fe910 - Path: Assets/galaga scripts/enemy bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f626fa83fb36a248aafa76ac19fe910 - Path: Assets/galaga scripts/enemy bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f626fa83fb36a248aafa76ac19fe910' -> (Import Result ID: '7c9fa8c674c9fe83f096b7729303cea2') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dc97d4066088e69f9f5680d5ca23f315 DependenciesID=412f98905571ed81ee9f40123939a2ce StaticDependenciesID=85a2db77d2b180931414c38edab57cef 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8099134Z
+  Time since last request: 0.0006981 seconds.
+  importAddress: GUID: 3edaf3f3cdaac32499de18bbdffd1ea3 - Path: Assets/galaga prefabs/Seeking Ship.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 3edaf3f3cdaac32499de18bbdffd1ea3 - Path: Assets/galaga prefabs/Seeking Ship.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 3edaf3f3cdaac32499de18bbdffd1ea3' -> (Import Result ID: '322153552fad1a7db915a6853b41628c') in 0.069 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=67cd359ad93304ce8f1e85ed199ec967 DependenciesID=2e93cce8aae633551228357ef0cca28e StaticDependenciesID=56403761efdd3767d080a69df45dab0c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 23
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8931625Z
+  Time since last request: 0.000334 seconds.
+  importAddress: GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491 - Path: Assets/galaga prefabs/enemybulletship.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491 - Path: Assets/galaga prefabs/enemybulletship.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491' -> (Import Result ID: '3122fd9b38a258824433843a1190203c') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4095910eb9b06340fa30ba2b4e6dc9e DependenciesID=ecf88754e0c2a826d9861231d66f7d95 StaticDependenciesID=2818da0a91044c9cd62088dc6aaacb8e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9220943Z
+  Time since last request: 0.0004139 seconds.
+  importAddress: GUID: 17e31010ea3f44641a9652bb39dd6866 - Path: Assets/Galaga Assets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 17e31010ea3f44641a9652bb39dd6866 - Path: Assets/Galaga Assets - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 17e31010ea3f44641a9652bb39dd6866' -> (Import Result ID: '8a2bb4fa641842eee627e2690d518d6e') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c12d0c55d1750431992c18b541da4d20 DependenciesID=79f92cbe1ea76a0383431dec8fb99c4f StaticDependenciesID=d10405496fa133becddf40c590eade01 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9401284Z
+  Time since last request: 0.0004366 seconds.
+  importAddress: GUID: c04669f70b2263d4385daee18596ed5f - Path: Assets/Galaga Assets/Orbital Colossus.mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: c04669f70b2263d4385daee18596ed5f - Path: Assets/Galaga Assets/Orbital Colossus.mp3 - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: c04669f70b2263d4385daee18596ed5f' -> (Import Result ID: '176a17ef1c266d745d3035ee29cef486') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b02e30c8925ea4464e9ab51f7cc829af DependenciesID=53dbba7eae4af032f4a7062143673b9f StaticDependenciesID=94f92f3ca107090b5b189b3ae2617971 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9643617Z
+  Time since last request: 0.0004998 seconds.
+  importAddress: GUID: 4aa6f1a1e07cfb4469b9f18f8dc43bc2 - Path: Assets/galaga scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 4aa6f1a1e07cfb4469b9f18f8dc43bc2 - Path: Assets/galaga scripts - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 4aa6f1a1e07cfb4469b9f18f8dc43bc2' -> (Import Result ID: 'b336199f6c8a50b5972d55b7741b4139') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=801e58b0fc8573e4ddbe79981827b1f1 DependenciesID=d2d64f05b746b044a7a95d268616d99a StaticDependenciesID=d7b8ccc7b5f7ec331d10891d589c1e35 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9791825Z
+  Time since last request: 0.000453 seconds.
+  importAddress: GUID: b661011df839859489f99687c3e9e51c - Path: Assets/Galaga Assets/ENEMY BULLET SHIP.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: b661011df839859489f99687c3e9e51c - Path: Assets/Galaga Assets/ENEMY BULLET SHIP.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: b661011df839859489f99687c3e9e51c' -> (Import Result ID: '827aac5bbedcce152c5c503e433fe465') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ccbd618ccb69a6963e814cced9b0a809 DependenciesID=22057c0f6af205e35c6a620f9fa41e1f StaticDependenciesID=aebfba09e9047b626f5ee47dfb3183d3 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0002257Z
+  Time since last request: 0.0005346 seconds.
+  importAddress: GUID: 41b393168e2e2ea47aaab698b9d37673 - Path: Assets/galaga prefabs/EnemyBullet.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 41b393168e2e2ea47aaab698b9d37673 - Path: Assets/galaga prefabs/EnemyBullet.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 41b393168e2e2ea47aaab698b9d37673' -> (Import Result ID: '7d6ae53efff87aaa4a62b8de8a13c08e') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9349344bd1a6b51b66cf3801cbe7e550 DependenciesID=edc39c0132340a0895f8d31a4fbe017a StaticDependenciesID=d986e615e7a2bc8ee0b61945f8e878d6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0277343Z
+  Time since last request: 0.0003267 seconds.
+  importAddress: GUID: 24af6153802025b49bcb33a2798ed7c9 - Path: Assets/Galaga Assets/enemy-medium.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 24af6153802025b49bcb33a2798ed7c9 - Path: Assets/Galaga Assets/enemy-medium.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 24af6153802025b49bcb33a2798ed7c9' -> (Import Result ID: 'e79b9d56d5d8b9bc6789666283396dcb') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=0c76f98c1438bfbcff4d00824ace6e5c DependenciesID=e2c0d4906456d7317c92b37597680f68 StaticDependenciesID=926066877ea09884c902be6ba7070868 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0495738Z
+  Time since last request: 0.0004186 seconds.
+  importAddress: GUID: d87385d08deff7842ae533df01a26432 - Path: Assets/galaga scripts/Wave Spawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: d87385d08deff7842ae533df01a26432 - Path: Assets/galaga scripts/Wave Spawner.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: d87385d08deff7842ae533df01a26432' -> (Import Result ID: '226a66f274a5833ceabd46118037f0e2') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7589b0717368578ae69424d34d3bc6d DependenciesID=052d1b5cbbfd52134530e335ad424d3e StaticDependenciesID=683c4137e714d3ba4b0b9b17a78e2db5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.06661Z
+  Time since last request: 0.0004932 seconds.
+  importAddress: GUID: 5b47e0b7b6ed0ac49bb3189d7d804408 - Path: Assets/Galaga Assets/player.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 5b47e0b7b6ed0ac49bb3189d7d804408 - Path: Assets/Galaga Assets/player.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 5b47e0b7b6ed0ac49bb3189d7d804408' -> (Import Result ID: 'fce22ea57aabd415b238ab0cc4c996eb') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9c0bddf23edf5381928c7cad29db9bda DependenciesID=4813b4928d1282fc1be26a808538eaea StaticDependenciesID=9e0a495498d398dc77df36fae9d013de 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.084733Z
+  Time since last request: 0.0005092 seconds.
+  importAddress: GUID: 104d9988dce9d3e4dbece655dd57b925 - Path: Assets/galaga prefabs/SeekingWave.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 104d9988dce9d3e4dbece655dd57b925 - Path: Assets/galaga prefabs/SeekingWave.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 104d9988dce9d3e4dbece655dd57b925' -> (Import Result ID: '1dfa23bbcaf41caf0b71d82df70d09e9') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a589139be14c82360aa49bec0880058f DependenciesID=0d2c9034353521d198c4401399e0a070 StaticDependenciesID=df80a8d0e088228e24e1a73e0a531004 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 49
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:45.4130915Z
+  Time since last request: 36.2916998 seconds.
+  importAddress: GUID: 1965390007b36da428781ea2fe769c20 - Path: Assets/Galaga Assets/ultron.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 1965390007b36da428781ea2fe769c20 - Path: Assets/Galaga Assets/ultron.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 1965390007b36da428781ea2fe769c20' -> (Import Result ID: '7638c1ea98876b8f4b7b1c199419bdcf') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1541e012e2e9f2b83f899b308636f771 DependenciesID=757ee0feb4e7e8aabd3edd4cd9a3e904 StaticDependenciesID=e0370c656939f2a01a52dc12b243443b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.29 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7502 unused Assets / (6.5 MB). Loaded Objects now: 8489.
+Memory consumption went from 370.5 MB to 363.9 MB.
+Total: 8.690500 ms (FindLiveObjects: 0.616900 ms CreateObjectMapping: 0.299900 ms MarkObjects: 6.143900 ms  DeleteObjects: 1.371800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.48 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.688 seconds
+Domain Reload Profiling: 1571ms
+	BeginReloadAssembly (233ms)
+		DisableScriptedObjects (17ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (7ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (62ms)
+	LoadAllAssembliesAndSetupDomain (566ms)
+		LoadAssemblies (328ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (176ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (689ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (231ms)
+			ProcessInitializeOnLoadMethodAttributes (95ms)
+			AfterProcessingInitializeOnLoad (6ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.04 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7517 unused Assets / (6.7 MB). Loaded Objects now: 8493.
+Memory consumption went from 369.1 MB to 362.3 MB.
+Total: 7.758900 ms (FindLiveObjects: 0.616800 ms CreateObjectMapping: 0.289300 ms MarkObjects: 4.995300 ms  DeleteObjects: 1.556300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7502 unused Assets / (6.7 MB). Loaded Objects now: 8493.
+Memory consumption went from 371.0 MB to 364.3 MB.
+Total: 8.849900 ms (FindLiveObjects: 0.669600 ms CreateObjectMapping: 0.514700 ms MarkObjects: 5.948300 ms  DeleteObjects: 1.425300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:42:39.0607992Z
+  Time since last request: 773.6273132 seconds.
+  importAddress: GUID: 7c1f01dda2d1c0f4aa9f462d59dead52 - Path: Assets/galaga scripts/ultron movement.cs - Importer: PreviewImporter
+Importing 'GUID: 7c1f01dda2d1c0f4aa9f462d59dead52 - Path: Assets/galaga scripts/ultron movement.cs - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7c1f01dda2d1c0f4aa9f462d59dead52' -> (Import Result ID: '36e1b474503b0b061c48572929adb948') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4d822f737cd2328931f9770c5ea7764f DependenciesID=f818d7d6cd20aa226ec19b8b6e59df83 StaticDependenciesID=4dfd46004dd474704e01594f0e859a90 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.675 seconds
+Domain Reload Profiling: 1700ms
+	BeginReloadAssembly (295ms)
+		DisableScriptedObjects (20ms)
+		CreateAndSetChildDomain (56ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (628ms)
+		LoadAssemblies (414ms)
+		TypeCache.Refresh (10ms)
+		AnalyzeDomain (183ms)
+			BuildScriptInfoCaches (178ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (676ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (99ms)
+			ProcessInitializeOnLoadAttributes (242ms)
+			ProcessInitializeOnLoadMethodAttributes (103ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (21ms)
+Refreshing native plugins compatible for Editor in 2.03 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7517 unused Assets / (7.6 MB). Loaded Objects now: 8496.
+Memory consumption went from 376.1 MB to 368.4 MB.
+Total: 7.170200 ms (FindLiveObjects: 0.527900 ms CreateObjectMapping: 0.282600 ms MarkObjects: 4.137300 ms  DeleteObjects: 1.973900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.74 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7502 unused Assets / (7.7 MB). Loaded Objects now: 8496.
+Memory consumption went from 378.0 MB to 370.3 MB.
+Total: 8.478700 ms (FindLiveObjects: 0.712600 ms CreateObjectMapping: 0.344500 ms MarkObjects: 5.500200 ms  DeleteObjects: 1.654000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.60 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.707 seconds
+Domain Reload Profiling: 1800ms
+	BeginReloadAssembly (302ms)
+		DisableScriptedObjects (16ms)
+		CreateAndSetChildDomain (60ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (78ms)
+	LoadAllAssembliesAndSetupDomain (681ms)
+		LoadAssemblies (423ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (207ms)
+			BuildScriptInfoCaches (199ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (708ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (116ms)
+			ProcessInitializeOnLoadAttributes (248ms)
+			ProcessInitializeOnLoadMethodAttributes (94ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7517 unused Assets / (6.8 MB). Loaded Objects now: 8499.
+Memory consumption went from 383.4 MB to 376.6 MB.
+Total: 7.145500 ms (FindLiveObjects: 0.612600 ms CreateObjectMapping: 0.260400 ms MarkObjects: 4.514900 ms  DeleteObjects: 1.489100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.13 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7502 unused Assets / (6.9 MB). Loaded Objects now: 8499.
+Memory consumption went from 385.3 MB to 378.4 MB.
+Total: 8.711500 ms (FindLiveObjects: 1.264600 ms CreateObjectMapping: 0.424600 ms MarkObjects: 5.061200 ms  DeleteObjects: 1.667500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.25 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.751 seconds
+Domain Reload Profiling: 1840ms
+	BeginReloadAssembly (283ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (54ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (16ms)
+	initialDomainReloadingComplete (73ms)
+	LoadAllAssembliesAndSetupDomain (702ms)
+		LoadAssemblies (430ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (213ms)
+			BuildScriptInfoCaches (204ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (752ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (98ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (108ms)
+			AfterProcessingInitializeOnLoad (8ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 2.12 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7517 unused Assets / (6.8 MB). Loaded Objects now: 8502.
+Memory consumption went from 391.3 MB to 384.5 MB.
+Total: 8.195600 ms (FindLiveObjects: 0.733500 ms CreateObjectMapping: 0.328100 ms MarkObjects: 5.303300 ms  DeleteObjects: 1.521900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.75 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.9 MB). Loaded Objects now: 8502.
+Memory consumption went from 387.9 MB to 385.0 MB.
+Total: 6.335400 ms (FindLiveObjects: 0.901400 ms CreateObjectMapping: 0.175000 ms MarkObjects: 4.634400 ms  DeleteObjects: 0.340400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.22 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8502.
+Memory consumption went from 389.7 MB to 386.6 MB.
+Total: 8.453400 ms (FindLiveObjects: 0.586500 ms CreateObjectMapping: 0.137900 ms MarkObjects: 7.085400 ms  DeleteObjects: 0.355700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:51:50.1002537Z
+  Time since last request: 551.02143460000002 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: '988e7065d14c0eb2e17d0dfbd28a79eb') in 0.331 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb02631b69b28491294faac280691845 DependenciesID=72c4df955b982eefedbe1ee27722a350 StaticDependenciesID=95befdf5a3449d6c4df7d61fc63d225a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:54:00.5354429Z
+  Time since last request: 130.08865299999999 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: 'b0e739a88dbe45593c714dc627e40464') in 0.112 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d1104bd23cc7522c17ead4fa9192f010 DependenciesID=2b636153b7bffc571c8a4faeab3f1408 StaticDependenciesID=28fd160c90d61616a68d17f6dc48cf35 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.52 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.9 MB). Loaded Objects now: 8606.
+Memory consumption went from 385.9 MB to 382.9 MB.
+Total: 9.349500 ms (FindLiveObjects: 0.568900 ms CreateObjectMapping: 0.157100 ms MarkObjects: 7.952400 ms  DeleteObjects: 0.370000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:59:29.4332327Z
+  Time since last request: 328.77193510000001 seconds.
+  importAddress: GUID: fd92d855e25c5a24f8adf2b403cdbc81 - Path: Assets/Galaga Assets/enemy-small.png - Importer: PreviewImporter
+Importing 'GUID: fd92d855e25c5a24f8adf2b403cdbc81 - Path: Assets/Galaga Assets/enemy-small.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fd92d855e25c5a24f8adf2b403cdbc81' -> (Import Result ID: '90ef4086c7b74b0ac3156c2990e04b22') in 0.040 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=7c0874ef9d4a0bd3252d3a595a5e5eff DependenciesID=0c128d1ecca8aa1543a59090234ffebe StaticDependenciesID=94d4c911ca3b5f49644cc25b7c712841 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.30 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.9 MB). Loaded Objects now: 8610.
+Memory consumption went from 386.3 MB to 383.4 MB.
+Total: 9.774200 ms (FindLiveObjects: 0.977900 ms CreateObjectMapping: 0.186600 ms MarkObjects: 7.979100 ms  DeleteObjects: 0.346000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:01:49.6246884Z
+  Time since last request: 140.1396852 seconds.
+  importAddress: GUID: 745a48d83d9947f4e821334bd7d7e8a3 - Path: Assets/Galaga Assets/ultron bullet.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 745a48d83d9947f4e821334bd7d7e8a3 - Path: Assets/Galaga Assets/ultron bullet.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 745a48d83d9947f4e821334bd7d7e8a3' -> (Import Result ID: '24e61501123f31c24e47a477ad522046') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=efb6366fc1e16011fa9e767ff90d4ee1 DependenciesID=c60664b19552d2cb2a022067197e8077 StaticDependenciesID=6ce69143d79158f51c033ef429ffc2c5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.50 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.9 MB). Loaded Objects now: 8610.
+Memory consumption went from 388.2 MB to 385.2 MB.
+Total: 8.109900 ms (FindLiveObjects: 0.713100 ms CreateObjectMapping: 0.183600 ms MarkObjects: 6.408600 ms  DeleteObjects: 0.430200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:04:24.043461Z
+  Time since last request: 154.39815809999999 seconds.
+  importAddress: GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter
+Importing 'GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron bullet) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 47d983fdabcb7fb458973b11cf2c4463' -> (Import Result ID: '7df6a45f8b9e7f667b25d70a626c78c2') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=776d675c767c19a7db52fe5bca222bee DependenciesID=79c41fd2ace06521f99e71d586cb37e9 StaticDependenciesID=51c84a3bb7a905a2aafc5ebb6a9de654 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.67 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7502 unused Assets / (5.7 MB). Loaded Objects now: 8610.
+Memory consumption went from 391.7 MB to 385.9 MB.
+Total: 10.604600 ms (FindLiveObjects: 0.846600 ms CreateObjectMapping: 0.360800 ms MarkObjects: 7.617000 ms  DeleteObjects: 1.446200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:08:18.6468422Z
+  Time since last request: 234.57921229999999 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: '08f632dfe112935068f2541cf1694bae') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb02631b69b28491294faac280691845 DependenciesID=fded35717d681e57b9362c9f453ab8e4 StaticDependenciesID=bf1c4130e83ca5d400cd9a8d1f382b5a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.748 seconds
+Domain Reload Profiling: 1782ms
+	BeginReloadAssembly (261ms)
+		DisableScriptedObjects (28ms)
+		CreateAndSetChildDomain (61ms)
+	RebuildCommonClasses (8ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (66ms)
+	LoadAllAssembliesAndSetupDomain (683ms)
+		LoadAssemblies (394ms)
+		TypeCache.Refresh (11ms)
+		AnalyzeDomain (222ms)
+			BuildScriptInfoCaches (215ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (749ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (109ms)
+			ProcessInitializeOnLoadAttributes (264ms)
+			ProcessInitializeOnLoadMethodAttributes (109ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.05 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7517 unused Assets / (7.4 MB). Loaded Objects now: 8538.
+Memory consumption went from 392.2 MB to 384.8 MB.
+Total: 7.959300 ms (FindLiveObjects: 1.468300 ms CreateObjectMapping: 0.498300 ms MarkObjects: 4.335200 ms  DeleteObjects: 1.391400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.11 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8538.
+Memory consumption went from 388.8 MB to 385.7 MB.
+Total: 8.302700 ms (FindLiveObjects: 1.066800 ms CreateObjectMapping: 0.227000 ms MarkObjects: 6.278400 ms  DeleteObjects: 0.412300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:10:15.8893947Z
+  Time since last request: 117.2217476 seconds.
+  importAddress: GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter
+Importing 'GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron bullet) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 47d983fdabcb7fb458973b11cf2c4463' -> (Import Result ID: '56f48240b6b9c5445b609cb56cd65591') in 0.285 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=776d675c767c19a7db52fe5bca222bee DependenciesID=99807b6a43268046b59b3f036646f597 StaticDependenciesID=e187eeabf1946109745266398f8dff79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 11
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.13 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8632.
+Memory consumption went from 389.3 MB to 386.2 MB.
+Total: 8.366200 ms (FindLiveObjects: 1.015200 ms CreateObjectMapping: 0.137100 ms MarkObjects: 6.594300 ms  DeleteObjects: 0.343200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:11:06.566911Z
+  Time since last request: 50.3771678 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: '2ea2e75f412421246be7a260b5fec0fa') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb02631b69b28491294faac280691845 DependenciesID=f7541eb5de7001c211b4d834b694bd32 StaticDependenciesID=c6f09a1d0070d232d9a904414592d876 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.75 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8632.
+Memory consumption went from 391.1 MB to 388.0 MB.
+Total: 7.442600 ms (FindLiveObjects: 1.025500 ms CreateObjectMapping: 0.201600 ms MarkObjects: 5.564000 ms  DeleteObjects: 0.338600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:11:15.2955417Z
+  Time since last request: 8.6996539 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: '885f3634f941dcdd7305b41d58beb366') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=eb02631b69b28491294faac280691845 DependenciesID=7ee19ae8d21092346f47afce4a872f95 StaticDependenciesID=d17791ba19c77aa0736d297b879be23c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.10 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8632.
+Memory consumption went from 389.3 MB to 386.2 MB.
+Total: 8.603500 ms (FindLiveObjects: 0.551600 ms CreateObjectMapping: 0.175300 ms MarkObjects: 6.787300 ms  DeleteObjects: 0.755800 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:12:07.987031Z
+  Time since last request: 52.6646757 seconds.
+  importAddress: GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter
+Importing 'GUID: 47d983fdabcb7fb458973b11cf2c4463 - Path: Assets/galaga prefabs/ultron bullet.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+The Animator Controller (ultron bullet) you have used is not valid. Animations will not play
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object,bool)
+UnityEditor.GameObjectInspector:GetPreviewData (bool)
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\build\output\unity\unity\Modules\Animation\Director\AnimatorControllerPlayable.cpp line 333]
+
+Imported 'GUID: 47d983fdabcb7fb458973b11cf2c4463' -> (Import Result ID: '0707e9f7d6e2b143b73e33c533628878') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=776d675c767c19a7db52fe5bca222bee DependenciesID=80d7df03e2593b02dfc3d19c247026e0 StaticDependenciesID=15d7a885b4586c42806574626ea3de5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.40 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8632.
+Memory consumption went from 389.3 MB to 386.2 MB.
+Total: 9.467400 ms (FindLiveObjects: 1.212600 ms CreateObjectMapping: 0.234300 ms MarkObjects: 7.272100 ms  DeleteObjects: 0.444000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.88 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (2.9 MB). Loaded Objects now: 8632.
+Memory consumption went from 391.1 MB to 388.2 MB.
+Total: 11.106500 ms (FindLiveObjects: 1.102400 ms CreateObjectMapping: 0.227900 ms MarkObjects: 8.320700 ms  DeleteObjects: 1.098400 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.13 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8632.
+Memory consumption went from 392.9 MB to 389.9 MB.
+Total: 9.154400 ms (FindLiveObjects: 1.045100 ms CreateObjectMapping: 0.189600 ms MarkObjects: 7.106900 ms  DeleteObjects: 0.509600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T16:22:29.0941435Z
+  Time since last request: 621.07729819999997 seconds.
+  importAddress: GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 6f7c234970128c8468f9b3ea9d156af6 - Path: Assets/galaga prefabs/ultron.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 6f7c234970128c8468f9b3ea9d156af6' -> (Import Result ID: 'ebf4a9068be76ef611cb1b2e2f152bc3') in 0.111 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dce1738d340a74b51871b5037cd5e209 DependenciesID=abbef894d694afb06ff68d6f50664bf5 StaticDependenciesID=aea11c21ef92b466884ebcf73901f53c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 12
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.16 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7503 unused Assets / (6.6 MB). Loaded Objects now: 8633.
+Memory consumption went from 402.1 MB to 395.5 MB.
+Total: 9.017300 ms (FindLiveObjects: 0.736200 ms CreateObjectMapping: 0.417800 ms MarkObjects: 6.209000 ms  DeleteObjects: 1.374600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.697 seconds
+Domain Reload Profiling: 1772ms
+	BeginReloadAssembly (293ms)
+		DisableScriptedObjects (32ms)
+		CreateAndSetChildDomain (68ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (76ms)
+	LoadAllAssembliesAndSetupDomain (679ms)
+		LoadAssemblies (419ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (207ms)
+			BuildScriptInfoCaches (200ms)
+			ResolveRequiredComponents (5ms)
+	FinalizeReload (698ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (104ms)
+			ProcessInitializeOnLoadAttributes (251ms)
+			ProcessInitializeOnLoadMethodAttributes (101ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (20ms)
+Refreshing native plugins compatible for Editor in 2.18 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7518 unused Assets / (7.0 MB). Loaded Objects now: 8561.
+Memory consumption went from 404.8 MB to 397.8 MB.
+Total: 8.111000 ms (FindLiveObjects: 1.285400 ms CreateObjectMapping: 0.328200 ms MarkObjects: 4.672900 ms  DeleteObjects: 1.531000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7503 unused Assets / (6.6 MB). Loaded Objects now: 8561.
+Memory consumption went from 406.7 MB to 400.1 MB.
+Total: 9.131400 ms (FindLiveObjects: 1.343600 ms CreateObjectMapping: 0.319000 ms MarkObjects: 5.720200 ms  DeleteObjects: 1.443600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+[Licensing::Client] Successfully resolved entitlement details
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 4.74 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.253 seconds
+Domain Reload Profiling: 2504ms
+	BeginReloadAssembly (303ms)
+		DisableScriptedObjects (19ms)
+		CreateAndSetChildDomain (64ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (75ms)
+	LoadAllAssembliesAndSetupDomain (848ms)
+		LoadAssemblies (451ms)
+		TypeCache.Refresh (12ms)
+		AnalyzeDomain (248ms)
+			BuildScriptInfoCaches (236ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1255ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (7ms)
+			BeforeProcessingInitializeOnLoad (217ms)
+			ProcessInitializeOnLoadAttributes (451ms)
+			ProcessInitializeOnLoadMethodAttributes (150ms)
+			AfterProcessingInitializeOnLoad (14ms)
+		AwakeInstancesAfterBackupRestoration (44ms)
+Refreshing native plugins compatible for Editor in 7.69 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7518 unused Assets / (3.6 MB). Loaded Objects now: 8564.
+Memory consumption went from 410.3 MB to 406.7 MB.
+Total: 17.267200 ms (FindLiveObjects: 1.689400 ms CreateObjectMapping: 0.387600 ms MarkObjects: 12.931300 ms  DeleteObjects: 1.924700 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.28 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.2 MB). Loaded Objects now: 8564.
+Memory consumption went from 406.9 MB to 403.8 MB.
+Total: 8.545100 ms (FindLiveObjects: 1.062600 ms CreateObjectMapping: 0.247800 ms MarkObjects: 6.350400 ms  DeleteObjects: 0.513100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 3.19 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8564.
+Memory consumption went from 408.7 MB to 405.6 MB.
+Total: 8.659800 ms (FindLiveObjects: 0.731300 ms CreateObjectMapping: 0.170800 ms MarkObjects: 7.009100 ms  DeleteObjects: 0.414700 ms)
+
+Prepare: number of updated asset objects reloaded= 0

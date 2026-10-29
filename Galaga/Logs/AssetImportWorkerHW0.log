@@ -1,0 +1,628 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.6/respin/6000.6.0f1-fa21a270ab12' branch; Version is '6000.6.0f1 (f7f8ed4d1e24) revision 16251117'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rainw" at "2026-10-29T15:25:19.8709872Z"
+OS: 'Windows 11  (10.0.26200) Core' Language: 'en' Physical Memory: 32456 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-29T15:25:19Z
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 22820, path: "C:/Program Files/Unity Hub/UnityLicensingClient_V1/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.3+d7ffd15
+  Session Id:              5a34fdf173344ec3b028831eea220570
+  Correlation Id:          28cb1eeb009a121e2f679e94ad37ea03
+  External correlation Id: 8264340017607517415
+  Machine Id:              Pt26JtnfFhh6oQv1gWN6/5TWVyM=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-rainw" (connect: 0.00s, validation: 0.00s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-rainw-notifications" at "2026-10-29T15:25:19.9705599Z"
+[Licensing::Module] Licensing Background thread has ended after 0.10s
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.6.0f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorkerHW0
+-projectPath
+C:/Users/rainw/Desktop/unity projects/Galaga
+-logFile
+Logs/AssetImportWorkerHW0.log
+-srvPort
+64207
+-parentPid
+21264
+-analyticsCloudUserId
+anonymous
+-analyticsCloudProjectId
+9e392579-6983-407b-8d20-78a73db693fd
+-analyticsLocalProjectId
+ad2a91d81af42b142aece90cc0582459
+-editorAnalyticsEnabled
+1
+-cbmEditorLicense
+90d477c0156a11957152da995168684eeae1215f
+-cbmMachineId
+Pt26JtnfFhh6oQv1gWN6/5TWVyM=
+-noDiagnosticSwitchPersistentStore
+-job-worker-count
+15
+-background-job-worker-count
+8
+-asset-garbage-collectors
+1
+-force-d3d12
+-name
+AssetImport
+Successfully changed project path to: C:/Users/rainw/Desktop/unity projects/Galaga
+C:/Users/rainw/Desktop/unity projects/Galaga
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-remapper-allocator-initial-capacity=32768"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=1"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Player connection [10152]  Target information:
+
+Player connection [10152]  * "[IP] 172.17.101.16 [Port] 0 [Flags] 2 [Guid] 400197069 [EditorId] 400197069 [Version] 1048832 [Id] WindowsEditor(7,wandamaximoff) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [10152] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [10152] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 15
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 10.00 ms, found 5 plugins.
+Initialize engine version: 6000.6.0f1 (f7f8ed4d1e24)
+[EntityIdStore] init: VM path (explicit commit), pageSize=4096, blockCount=1048576, entitiesPerBlock=256, slots reserved=4294967296 bytes
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/rainw/Desktop/unity projects/Galaga/Assets
+Forcing GfxDevice: Direct3D 12
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 4070 Laptop GPU (ID=0x2860)
+    Vendor:          NVIDIA
+    VRAM:            7948 MB
+    App VRAM Budget: 7180 MB
+    Driver:          32.0.15.9608
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56260
+CodeReloadManager initialized
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.6.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.006800 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  0.745 seconds
+Domain Reload Profiling: 3460ms
+	BeginReloadAssembly (325ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (45ms)
+	initialDomainReloadingComplete (181ms)
+	LoadAllAssembliesAndSetupDomain (2151ms)
+		LoadAssemblies (309ms)
+		TypeCache.Refresh (2004ms)
+			TypeCache.ScanAssembly (1983ms)
+		AnalyzeDomain (1ms)
+	FinalizeReload (747ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (3ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (182ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (301ms)
+Initializing Unity extensions:
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 2476042017699-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 2.95 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.226 seconds
+Domain Reload Profiling: 3159ms
+	BeginReloadAssembly (448ms)
+		DisableScriptedObjects (18ms)
+		CreateAndSetChildDomain (52ms)
+	RebuildCommonClasses (20ms)
+	RebuildNativeTypeToScriptingClass (50ms)
+	initialDomainReloadingComplete (177ms)
+	LoadAllAssembliesAndSetupDomain (1237ms)
+		LoadAssemblies (717ms)
+		TypeCache.Refresh (343ms)
+			TypeCache.ScanAssembly (317ms)
+		AnalyzeDomain (145ms)
+			BuildScriptInfoCaches (134ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (1227ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (152ms)
+			ProcessInitializeOnLoadAttributes (426ms)
+			ProcessInitializeOnLoadMethodAttributes (335ms)
+			AfterProcessingInitializeOnLoad (9ms)
+		AwakeInstancesAfterBackupRestoration (12ms)
+AcceleratorClientConnectionCallback - disconnected - :0
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 2.96 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7518 unused Assets / (6.5 MB). Loaded Objects now: 8486.
+Memory consumption went from 369.2 MB to 362.7 MB.
+Total: 12.496600 ms (FindLiveObjects: 0.826200 ms CreateObjectMapping: 0.403900 ms MarkObjects: 8.036100 ms  DeleteObjects: 2.755700 ms)
+
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+'Packages/com.unity.render-pipelines.core/Editor/Deprecated.cs' contains partial class of Unity.Object, exactly 1 of the partial classes needs to be in a file with the same filename. This is to know the one that can be referenced from ie. GameObjects
+Refreshing native plugins compatible for Editor in 3.02 ms, found 5 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Scripting: successfully reloaded assembly
+- Finished resetting the current domain, in  1.031 seconds
+Domain Reload Profiling: 2397ms
+	BeginReloadAssembly (369ms)
+		DisableScriptedObjects (22ms)
+		CreateAndSetChildDomain (69ms)
+	RebuildCommonClasses (15ms)
+	RebuildNativeTypeToScriptingClass (26ms)
+	initialDomainReloadingComplete (117ms)
+	LoadAllAssembliesAndSetupDomain (838ms)
+		LoadAssemblies (652ms)
+		TypeCache.Refresh (14ms)
+		AnalyzeDomain (18ms)
+			ResolveRequiredComponents (12ms)
+	FinalizeReload (1032ms)
+		SetupLoadedEditorAssemblies (0ms)
+			LogAssemblyErrors (4ms)
+			InitializePlatformSupportModulesInManaged (3ms)
+			BeforeProcessingInitializeOnLoad (174ms)
+			ProcessInitializeOnLoadAttributes (336ms)
+			ProcessInitializeOnLoadMethodAttributes (122ms)
+			AfterProcessingInitializeOnLoad (7ms)
+		AwakeInstancesAfterBackupRestoration (25ms)
+Refreshing native plugins compatible for Editor in 2.52 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 7516 unused Assets / (7.3 MB). Loaded Objects now: 8490.
+Memory consumption went from 361.7 MB to 354.4 MB.
+Total: 8.157300 ms (FindLiveObjects: 0.499500 ms CreateObjectMapping: 0.274300 ms MarkObjects: 5.368200 ms  DeleteObjects: 1.698600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Prepare
+AcceleratorClientConnectionCallback - disconnected - :0
+Refreshing native plugins compatible for Editor in 2.54 ms, found 5 plugins.
+Unloading 24 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 24 unused Assets / (3.1 MB). Loaded Objects now: 8490.
+Memory consumption went from 358.4 MB to 355.3 MB.
+Total: 7.847300 ms (FindLiveObjects: 0.486700 ms CreateObjectMapping: 0.169800 ms MarkObjects: 6.465300 ms  DeleteObjects: 0.406900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.083714Z
+  Time since last request: 1016724.04455300001428 seconds.
+  importAddress: GUID: a7a8247bb2210cc4cabf05fd617fd727 - Path: Assets/Galaga Assets/desert-backgorund-looped.png - Importer: PreviewImporter
+Importing 'GUID: a7a8247bb2210cc4cabf05fd617fd727 - Path: Assets/Galaga Assets/desert-backgorund-looped.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: a7a8247bb2210cc4cabf05fd617fd727' -> (Import Result ID: '8055ead435562527ab195a2c63697a0b') in 0.098 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=30f13848a6d335e7f7efe21305c0046b DependenciesID=d28e1e9b6f87f5ce53012787ac121ab2 StaticDependenciesID=cfa2cc974d95a1490254892af4225564 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.2008757Z
+  Time since last request: 0.0000509 seconds.
+  importAddress: GUID: 24af6153802025b49bcb33a2798ed7c9 - Path: Assets/Galaga Assets/enemy-medium.png - Importer: PreviewImporter
+Importing 'GUID: 24af6153802025b49bcb33a2798ed7c9 - Path: Assets/Galaga Assets/enemy-medium.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 24af6153802025b49bcb33a2798ed7c9' -> (Import Result ID: '67539e9e864fb23c69a52df94128fcb4') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bc6a5b9e50838540465366f1a153dd8e DependenciesID=de78002eb739050cccd7fd78d971ba1e StaticDependenciesID=5ef7372b0e3d9a88aa29035988df307b 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.2339696Z
+  Time since last request: 0.0005872 seconds.
+  importAddress: GUID: f3c0ce54462031d4fa9cfa990e806baf - Path: Assets/Galaga Assets/Scarlet Witch.png - Importer: PreviewImporter
+Importing 'GUID: f3c0ce54462031d4fa9cfa990e806baf - Path: Assets/Galaga Assets/Scarlet Witch.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: f3c0ce54462031d4fa9cfa990e806baf' -> (Import Result ID: '93a06dd508296b1fe98f897854565ade') in 0.081 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a20fbb5a43a19482b3c5c75d42bf80c1 DependenciesID=374b850077549b04adf544c3a2318a34 StaticDependenciesID=b093739b91f73bed886be4ee7cd47a83 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 17
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.329937Z
+  Time since last request: 0.0007863 seconds.
+  importAddress: GUID: 7f096edeef102ac4684440271684f20c - Path: Assets/Galaga Assets/enemy-big.png - Importer: PreviewImporter
+Importing 'GUID: 7f096edeef102ac4684440271684f20c - Path: Assets/Galaga Assets/enemy-big.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 7f096edeef102ac4684440271684f20c' -> (Import Result ID: '44973c386bd1aaa080b94dfd435fc877') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c7c8f8f574e768edc06ae0772ce8df60 DependenciesID=ab583aee135b516fb81b50f67904bc16 StaticDependenciesID=53589eb5ae11897dc6e8b9cd5dc5bf02 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.3592224Z
+  Time since last request: 0.0006531 seconds.
+  importAddress: GUID: 15b1c574738c6914a9a8eda07d2ca77a - Path: Assets/Galaga Assets/YTDown.com_YouTube_Media_pdqUli1OIXU_WandaVision-From-WandaVision-Episode-2-Audio-Only_008_128k.mp3 - Importer: PreviewImporter
+Importing 'GUID: 15b1c574738c6914a9a8eda07d2ca77a - Path: Assets/Galaga Assets/YTDown.com_YouTube_Media_pdqUli1OIXU_WandaVision-From-WandaVision-Episode-2-Audio-Only_008_128k.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 15b1c574738c6914a9a8eda07d2ca77a' -> (Import Result ID: 'f8f141643b6667e426a50d2ec2d619f2') in 0.046 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f24587c7fc5364e8ff20610e6b3680b1 DependenciesID=aa5eeef050092edb2273aef3ae1f5c2d StaticDependenciesID=0eeb70416bddb9a1860451eef945f1d7 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.4188314Z
+  Time since last request: 0.0000175 seconds.
+  importAddress: GUID: fd92d855e25c5a24f8adf2b403cdbc81 - Path: Assets/Galaga Assets/enemy-small.png - Importer: PreviewImporter
+Importing 'GUID: fd92d855e25c5a24f8adf2b403cdbc81 - Path: Assets/Galaga Assets/enemy-small.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: fd92d855e25c5a24f8adf2b403cdbc81' -> (Import Result ID: '66a8581b46f2c55d08a97eb08ed95c68') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4edb523643b04023409ffb9aececa4c4 DependenciesID=f711e2a787453abc4642e11c26d14c3e StaticDependenciesID=a48f928e7b1c8c7a47086a793b4c591e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.4453823Z
+  Time since last request: 0.0007953 seconds.
+  importAddress: GUID: 72650d5a8e606334aa0c87b8b27d97ed - Path: Assets/Galaga Assets/ship.png - Importer: PreviewImporter
+Importing 'GUID: 72650d5a8e606334aa0c87b8b27d97ed - Path: Assets/Galaga Assets/ship.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 72650d5a8e606334aa0c87b8b27d97ed' -> (Import Result ID: 'b6cd1e2fc31b8d25d373fb667718aa3b') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=cb74d1ac5ffc77b88705cc4d0d1ab8b4 DependenciesID=1e92755f56b8959093b04018f374641e StaticDependenciesID=3b12b884fa93ba9dd8f72b2b2db45ff8 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.4876911Z
+  Time since last request: 0.0007386 seconds.
+  importAddress: GUID: da249f01e6b84ce49ad021da5b3ec383 - Path: Assets/Galaga Assets/laser-bolts.png - Importer: PreviewImporter
+Importing 'GUID: da249f01e6b84ce49ad021da5b3ec383 - Path: Assets/Galaga Assets/laser-bolts.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: da249f01e6b84ce49ad021da5b3ec383' -> (Import Result ID: 'f18c6e83cbe789d803da16ccf37cb173') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ece16125d5d2f42311f4f3ebc3dd26d0 DependenciesID=6817b01bb0bfeaf400624443f3c12eee StaticDependenciesID=1ed40745ec2828a708562b5aba7d64e5 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.5136516Z
+  Time since last request: 0.0011417 seconds.
+  importAddress: GUID: 890017adc306b2a4fbe7cf2dd08a9833 - Path: Assets/Galaga Assets/heart.png - Importer: PreviewImporter
+Importing 'GUID: 890017adc306b2a4fbe7cf2dd08a9833 - Path: Assets/Galaga Assets/heart.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 890017adc306b2a4fbe7cf2dd08a9833' -> (Import Result ID: 'd5e6fc87bbef53be28df031e7fcfb78b') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=8283eba1cb47b82754b1a63f55864e75 DependenciesID=1021af81be5492ca01de78e429ec4f4d StaticDependenciesID=dd01160954bbef8745d46de708d6ba98 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.5367621Z
+  Time since last request: 0.001043 seconds.
+  importAddress: GUID: 56f69e33922069049b64caf55aa96e0b - Path: Assets/Galaga Assets/laser_shooting_sfx.wav - Importer: PreviewImporter
+Importing 'GUID: 56f69e33922069049b64caf55aa96e0b - Path: Assets/Galaga Assets/laser_shooting_sfx.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 56f69e33922069049b64caf55aa96e0b' -> (Import Result ID: 'de125561eaff01670108080e535ada78') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2434269231e6869b221eb944fa99e890 DependenciesID=f04b6c1eef5a7b2fcc7cdcf27da54168 StaticDependenciesID=0d7431df9597058f999d9899925758a2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.5567739Z
+  Time since last request: 0.000954 seconds.
+  importAddress: GUID: 556f1c5d426b3e84f8f1f4436fd25896 - Path: Assets/Galaga Assets/Explosion.png - Importer: PreviewImporter
+Importing 'GUID: 556f1c5d426b3e84f8f1f4436fd25896 - Path: Assets/Galaga Assets/Explosion.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 556f1c5d426b3e84f8f1f4436fd25896' -> (Import Result ID: 'd0f80aadff78aa82225a618c24c9d103') in 0.036 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c6399d0a64df3ffff4030e6b3f018b73 DependenciesID=1360d19fab28ab9645901335b8282d14 StaticDependenciesID=6d6aff0420a431acfb2706359d146e93 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.6060158Z
+  Time since last request: 0.0008857 seconds.
+  importAddress: GUID: debf336ae8ff35442a3d858fa4f23d71 - Path: Assets/Galaga Assets/power-up.png - Importer: PreviewImporter
+Importing 'GUID: debf336ae8ff35442a3d858fa4f23d71 - Path: Assets/Galaga Assets/power-up.png - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: debf336ae8ff35442a3d858fa4f23d71' -> (Import Result ID: '12c9c993ab0e30fe9be8a84bec55720d') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6cb9e66c9bbeba92aeea1a7d02710e9b DependenciesID=b0443bba8ffbcce057fb685d1a5c35f4 StaticDependenciesID=a10be23e0f2b80d5ac3211c510c1be69 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.6285641Z
+  Time since last request: 0.0017464 seconds.
+  importAddress: GUID: c04669f70b2263d4385daee18596ed5f - Path: Assets/Galaga Assets/Orbital Colossus.mp3 - Importer: PreviewImporter
+Importing 'GUID: c04669f70b2263d4385daee18596ed5f - Path: Assets/Galaga Assets/Orbital Colossus.mp3 - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: c04669f70b2263d4385daee18596ed5f' -> (Import Result ID: '1ce65930d50edfb666dc325566aaf9e2') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=702397020c73882674884f4f9e5b7069 DependenciesID=530628220268728dad96ce7a13c8b0ad StaticDependenciesID=02ee4c982878c2404e61a0bc9adc502a 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.6503917Z
+  Time since last request: 0.0019217 seconds.
+  importAddress: GUID: 01f5237e158a7844fbf4a289963005cd - Path: Assets/galaga prefabs/BulletWave - test Variant.prefab - Importer: PreviewImporter
+Importing 'GUID: 01f5237e158a7844fbf4a289963005cd - Path: Assets/galaga prefabs/BulletWave - test Variant.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 01f5237e158a7844fbf4a289963005cd' -> (Import Result ID: 'c193cc6c9abdee3c0d9fa3d27a9b91c5') in 0.302 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d83c2a75057c690a85e20fd659fef4e6 DependenciesID=9387cb631f09c26e04eacbb797603a3e StaticDependenciesID=8706fe5909f178ecce288f46fc6dec15 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 103
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.9674292Z
+  Time since last request: 0.0015973 seconds.
+  importAddress: GUID: cf061c30897e44a41931981e5016520f - Path: Assets/galaga prefabs/BulletWave.prefab - Importer: PreviewImporter
+Importing 'GUID: cf061c30897e44a41931981e5016520f - Path: Assets/galaga prefabs/BulletWave.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: cf061c30897e44a41931981e5016520f' -> (Import Result ID: '4129b12ed2737db75dcf3f5b65850814') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ff6e333d17a56546ae872d7dd5ca6078 DependenciesID=0e862ddfdd99c7e7760f5a0348e56cb8 StaticDependenciesID=771739be0c17aadaa0333f4852795e71 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 78
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:03.9986551Z
+  Time since last request: 0.0014004 seconds.
+  importAddress: GUID: 104d9988dce9d3e4dbece655dd57b925 - Path: Assets/galaga prefabs/SeekingWave.prefab - Importer: PreviewImporter
+Importing 'GUID: 104d9988dce9d3e4dbece655dd57b925 - Path: Assets/galaga prefabs/SeekingWave.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 104d9988dce9d3e4dbece655dd57b925' -> (Import Result ID: '8d534392e423e100926f85486241b67a') in 0.024 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5224d5c83a4f3135d94f927221587ae1 DependenciesID=f99f9449df54e1f446a0da582522b207 StaticDependenciesID=60e11c2cfcde99967948832c488638e4 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 84
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.0383083Z
+  Time since last request: 0.0019139 seconds.
+  importAddress: GUID: 3edaf3f3cdaac32499de18bbdffd1ea3 - Path: Assets/galaga prefabs/Seeking Ship.prefab - Importer: PreviewImporter
+Importing 'GUID: 3edaf3f3cdaac32499de18bbdffd1ea3 - Path: Assets/galaga prefabs/Seeking Ship.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3edaf3f3cdaac32499de18bbdffd1ea3' -> (Import Result ID: '2f07738fefa562fccf7f2dbc7aac130c') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=feb78506cb88929cf7c771e623c27478 DependenciesID=4289321d5f607ccede147fdbb61ff3ec StaticDependenciesID=9d4f47c13a5abee38dbce10861d647fc 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 41
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.0782028Z
+  Time since last request: 0.0015811 seconds.
+  importAddress: GUID: be32e701359d41047bde1749c14c0520 - Path: Assets/galaga prefabs/playerbullet.prefab - Importer: PreviewImporter
+Importing 'GUID: be32e701359d41047bde1749c14c0520 - Path: Assets/galaga prefabs/playerbullet.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: be32e701359d41047bde1749c14c0520' -> (Import Result ID: 'b6effb6ffe4971a92af3a3edaff3b84c') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=75f819742fcef1e219e61435c43e1d7c DependenciesID=0d08ff1f6f4f69a97eaa03270736165b StaticDependenciesID=d4eb20dd1831e479ac5dbac3dce9ba27 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.1127544Z
+  Time since last request: 0.0018583 seconds.
+  importAddress: GUID: 617147e3c01f54e43a20ce80ac65d6e6 - Path: Assets/galaga prefabs/Explosion.prefab - Importer: PreviewImporter
+Importing 'GUID: 617147e3c01f54e43a20ce80ac65d6e6 - Path: Assets/galaga prefabs/Explosion.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 617147e3c01f54e43a20ce80ac65d6e6' -> (Import Result ID: '52aa5108c638d7a76f30a7bc66376219') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3ac6468b5705d0c03f8dbf0f1ebd8e1 DependenciesID=de5f6e86632065445c16ff950a446c14 StaticDependenciesID=d4518526ed629fa768725dd46c88d68c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 26
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.145177Z
+  Time since last request: 0.0015861 seconds.
+  importAddress: GUID: 3a322346dcaab5a499004d21604a488d - Path: Assets/Galaga Assets/explosion.wav - Importer: PreviewImporter
+Importing 'GUID: 3a322346dcaab5a499004d21604a488d - Path: Assets/Galaga Assets/explosion.wav - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 3a322346dcaab5a499004d21604a488d' -> (Import Result ID: '7fa8bc38b961cea547721ee1197dcfa7') in 0.006 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86207382740aee041907b4b21c2be9f0 DependenciesID=9716b5634139aa800b5dce2c54f4ada2 StaticDependenciesID=49e850d09e1ac6c8987a64d54158bc32 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.1662008Z
+  Time since last request: 0.0009331 seconds.
+  importAddress: GUID: 41b393168e2e2ea47aaab698b9d37673 - Path: Assets/galaga prefabs/EnemyBullet.prefab - Importer: PreviewImporter
+Importing 'GUID: 41b393168e2e2ea47aaab698b9d37673 - Path: Assets/galaga prefabs/EnemyBullet.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 41b393168e2e2ea47aaab698b9d37673' -> (Import Result ID: 'e820439b8e2c0e892d86b91c877f09c8') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4e0ee237e2515cc7b78171d2c3e10ac2 DependenciesID=7e46b06c1b5b1eb91d728d7421eb5b7a StaticDependenciesID=f6cf3600a363e372cd176b725ba7ea91 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 16
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:04.1897515Z
+  Time since last request: 0.0019199 seconds.
+  importAddress: GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491 - Path: Assets/galaga prefabs/enemybulletship.prefab - Importer: PreviewImporter
+Importing 'GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491 - Path: Assets/galaga prefabs/enemybulletship.prefab - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: bc6c0bc4ce9b1e64191d3ccde0d8b491' -> (Import Result ID: '0b73a1632e8ed86312160f4ffe9876a4') in 0.012 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=12c47d84782a68b8206c88d43167234d DependenciesID=09e35d28a51b4a4b0b3a3250fbdfb5b6 StaticDependenciesID=71551a74217f361fb0e02d318c8dc93e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 51
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:06.0712801Z
+  Time since last request: 1.8551122 seconds.
+  importAddress: GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter
+Importing 'GUID: 00000000000000001000000000000000 - Path: Assets - Importer: PreviewImporter' with importer (PreviewImporter)
+Imported 'GUID: 00000000000000001000000000000000' -> (Import Result ID: 'e7deeb2551deae0121fd5a6b039aae71') in 0.001 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=923ecb25fcaecb4cb3c936046707f967 DependenciesID=e433eb2cc7fcfa398a42c02d690773b6 StaticDependenciesID=49809cc4be1468db50a967dd266d4b5e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.6113442Z
+  Time since last request: 2.5257273 seconds.
+  importAddress: GUID: 47cce6e6ce35ec745ab7c1e14912f892 - Path: Assets/Galaga Assets/PlayerAnimation.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 47cce6e6ce35ec745ab7c1e14912f892 - Path: Assets/Galaga Assets/PlayerAnimation.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 47cce6e6ce35ec745ab7c1e14912f892' -> (Import Result ID: 'a417fcf783ebeebdeb736cb6fbb07f04') in 0.083 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ce96857da9df54faba6107bffbb701bf DependenciesID=a2e722907ba2a3585ffec970601ce9fa StaticDependenciesID=d55e28c127102701b5fda819f0095ef6 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.717339Z
+  Time since last request: 0.0088144 seconds.
+  importAddress: GUID: fac20d09015b7a74292d1916319110cd - Path: Assets/galaga scripts/bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: fac20d09015b7a74292d1916319110cd - Path: Assets/galaga scripts/bullet.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: fac20d09015b7a74292d1916319110cd' -> (Import Result ID: '6ec7b9aca74766125f13d6147c86d793') in 0.009 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d003de93f7346267a029b377cc35f093 DependenciesID=15dd9bef7dd75b8f09d5cca550338052 StaticDependenciesID=1813ee240c421fcf2b8455d68be2ad79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.7437793Z
+  Time since last request: 0.0008145 seconds.
+  importAddress: GUID: 9b74f9de9eb5dff4b9a5a41e678a4838 - Path: Assets/galaga scripts/Background Scroller.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 9b74f9de9eb5dff4b9a5a41e678a4838 - Path: Assets/galaga scripts/Background Scroller.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 9b74f9de9eb5dff4b9a5a41e678a4838' -> (Import Result ID: 'c016379acfc1b528f139695f5212d55f') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5c58e964efadffcd73e50f7e36f6474c DependenciesID=a69c3161bc1f0ee25d3dd6f609c58798 StaticDependenciesID=ab86d63ffd2e6d91aa3e02c9ffff9f79 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.7632996Z
+  Time since last request: 0.0004999 seconds.
+  importAddress: GUID: 56f69e33922069049b64caf55aa96e0b - Path: Assets/Galaga Assets/laser_shooting_sfx.wav - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 56f69e33922069049b64caf55aa96e0b - Path: Assets/Galaga Assets/laser_shooting_sfx.wav - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 56f69e33922069049b64caf55aa96e0b' -> (Import Result ID: '9a85cffbd93471411c77baa114286e14') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c63c50e5181c867498867f49b4899e21 DependenciesID=fdffb4850d415ae07a05a1efe3ab54d7 StaticDependenciesID=85adb9dae6d3b2605941c0e1d87e7080 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.7865469Z
+  Time since last request: 0.0004703 seconds.
+  importAddress: GUID: 24120fd3fd8115941b71621592678542 - Path: Assets/Galaga Assets/sigh enemy bullet.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 24120fd3fd8115941b71621592678542 - Path: Assets/Galaga Assets/sigh enemy bullet.anim - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 24120fd3fd8115941b71621592678542' -> (Import Result ID: '7e91b0dca14a47200ddb633b9691112b') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f827f7b3b462e320fd8147b601d7c561 DependenciesID=3d70d286e2f51e2778ff2c92a7e93802 StaticDependenciesID=fe9591d772924b082e187bc803851923 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8056984Z
+  Time since last request: 0.0005269 seconds.
+  importAddress: GUID: 94665407c08b366419cd41e912b69570 - Path: Assets/Galaga Assets/Explosion.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 94665407c08b366419cd41e912b69570 - Path: Assets/Galaga Assets/Explosion.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 94665407c08b366419cd41e912b69570' -> (Import Result ID: 'dce7231b702681f60f8bb623d699a1f2') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f5eaeb79cca2eee27765c82b94958bb6 DependenciesID=0bb3f85bd9061108f942b830048894d0 StaticDependenciesID=e2232a521037bd8f45206627766c4631 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8235377Z
+  Time since last request: 0.0008701 seconds.
+  importAddress: GUID: cf586cb89646aa64495c53427cfeff8b - Path: Assets/Galaga Assets/EnemyBullet.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: cf586cb89646aa64495c53427cfeff8b - Path: Assets/Galaga Assets/EnemyBullet.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: cf586cb89646aa64495c53427cfeff8b' -> (Import Result ID: '4a6d8f00c2aa3c09c4ac3efb79328ace') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f369c3d416545a857cc4f5449b7b8ba7 DependenciesID=4c1fcd0e078afc5ca9908e33ea4c019a StaticDependenciesID=35830c1c41ba7699a4dd62b2b54753f2 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8419338Z
+  Time since last request: 0.0004187 seconds.
+  importAddress: GUID: 79b712159edafb149bf9f2eff5b43758 - Path: Assets/Galaga Assets/enemybulletship.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 79b712159edafb149bf9f2eff5b43758 - Path: Assets/Galaga Assets/enemybulletship.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 79b712159edafb149bf9f2eff5b43758' -> (Import Result ID: '78a119756b787a0327b6abe4ece4a0a4') in 0.003 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=86c79c9443a853a90fb896194d0cceae DependenciesID=3834fef51490d53ec8e1a574c45a6fcb StaticDependenciesID=9ecbca4aa5fab4aba84ce59312aa713c 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.8601582Z
+  Time since last request: 0.0003649 seconds.
+  importAddress: GUID: 556f1c5d426b3e84f8f1f4436fd25896 - Path: Assets/Galaga Assets/Explosion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 556f1c5d426b3e84f8f1f4436fd25896 - Path: Assets/Galaga Assets/Explosion.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 556f1c5d426b3e84f8f1f4436fd25896' -> (Import Result ID: '66eb6595c1fe07d1e671f2c31934c0c1') in 0.048 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=5a5f09e541d53085db2a7e113c5a8f0b DependenciesID=621634a685884df9711576c6a19914fc StaticDependenciesID=163466fc82183918a589b41f2289453e 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 14
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9226833Z
+  Time since last request: 0.000407 seconds.
+  importAddress: GUID: a7a8247bb2210cc4cabf05fd617fd727 - Path: Assets/Galaga Assets/desert-backgorund-looped.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: a7a8247bb2210cc4cabf05fd617fd727 - Path: Assets/Galaga Assets/desert-backgorund-looped.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: a7a8247bb2210cc4cabf05fd617fd727' -> (Import Result ID: '2f7f0f901f4fabb791ba25f6ef2edc74') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=45b095f83e49fac1ec588576ed78104e DependenciesID=d5091470474d6d590ec47e8ca3dd3928 StaticDependenciesID=48bc665ded9a173a5b62830798cf1d28 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9426921Z
+  Time since last request: 0.0003404 seconds.
+  importAddress: GUID: af618911feb639a469483fa2c34b0d87 - Path: Assets/Galaga Assets/playerbullet.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: af618911feb639a469483fa2c34b0d87 - Path: Assets/Galaga Assets/playerbullet.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: af618911feb639a469483fa2c34b0d87' -> (Import Result ID: '3bcf7aa5cc345f0b3da20b100ba06d77') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e9beb82bd9c73e6c88f8b91aeea6fb10 DependenciesID=943a528d7fa83047e7a727b29c090a3e StaticDependenciesID=f8f53b6e606f45393edc6ad4373394fd 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9586523Z
+  Time since last request: 0.0004073 seconds.
+  importAddress: GUID: da249f01e6b84ce49ad021da5b3ec383 - Path: Assets/Galaga Assets/laser-bolts.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: da249f01e6b84ce49ad021da5b3ec383 - Path: Assets/Galaga Assets/laser-bolts.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: da249f01e6b84ce49ad021da5b3ec383' -> (Import Result ID: '17fe1567ea0f05238dd619d574bff1ab') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=6d7d84e2b48c532ce4958c83eeca8232 DependenciesID=a4e21da1aa9c1cd434e49070029b0ac1 StaticDependenciesID=86c17d256cb37102c501c4ab7cad4503 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 6
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:08.9795127Z
+  Time since last request: 0.0003482 seconds.
+  importAddress: GUID: 617147e3c01f54e43a20ce80ac65d6e6 - Path: Assets/galaga prefabs/Explosion.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 617147e3c01f54e43a20ce80ac65d6e6 - Path: Assets/galaga prefabs/Explosion.prefab - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 617147e3c01f54e43a20ce80ac65d6e6' -> (Import Result ID: '6fb04e0ae251adfca974e3bba1e59b55') in 0.053 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=634b9bcda7896502f4c1d0b0abf94e0e DependenciesID=be8b10dcde8256c3e45470c410807cd9 StaticDependenciesID=b96c812da24774dce9c8c0d53bb5af8f 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0467526Z
+  Time since last request: 0.0002531 seconds.
+  importAddress: GUID: ef3bd0c5f0d6fad4f808f019517047ab - Path: Assets/Galaga Assets/Seeking Ship.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: ef3bd0c5f0d6fad4f808f019517047ab - Path: Assets/Galaga Assets/Seeking Ship.controller - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: ef3bd0c5f0d6fad4f808f019517047ab' -> (Import Result ID: 'b06ce476aab11119c3dc50b2d1256169') in 0.004 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e22b54282fdf191223cc8cd21866ecb1 DependenciesID=5ea7320fb1186b08d3403d059289dd4b StaticDependenciesID=b0b7fe21127042b89b577050f258fa63 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0667679Z
+  Time since last request: 0.0003438 seconds.
+  importAddress: GUID: 72650d5a8e606334aa0c87b8b27d97ed - Path: Assets/Galaga Assets/ship.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: 72650d5a8e606334aa0c87b8b27d97ed - Path: Assets/Galaga Assets/ship.png - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: 72650d5a8e606334aa0c87b8b27d97ed' -> (Import Result ID: 'd17a532757ebbb203a9374d613c3789d') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=ca6574bc4b2e84664692fec742181cae DependenciesID=68a77cddb1db3f0fcf57f494aeeb03aa StaticDependenciesID=0b2e34f6a1fa7bc861d2c6cdf9a9a170 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time of request: 2026-10-29T15:29:09.0940463Z
+  Time since last request: 0.0005537 seconds.
+  importAddress: GUID: f9edd7983dca34a4fbc9136f3a93d2fd - Path: Assets/galaga scripts/galaga movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B
+Importing 'GUID: f9edd7983dca34a4fbc9136f3a93d2fd - Path: Assets/galaga scripts/galaga movement.cs - Importer: ScriptedImporter/UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B' with importer (ScriptedImporter : UnityEditor.QuickSearchModule:UnityEditor.Search:ASIAI0B)
+Imported 'GUID: f9edd7983dca34a4fbc9136f3a93d2fd' -> (Import Result ID: 'd08fea2611c831c7482120c959b92ab8') in 0.002 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=99e580f7055250a7a5b3ce2b42e708f8 DependenciesID=cf00f089ca17e1440a3ebc7b896b3a20 StaticDependenciesID=00fc45774b366057e82bb11587486cb9 
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AcceleratorClientConnectionCallback - disconnected - :0
+AssetImportWorker is now disconnected from the server
+Process exiting
+[ExitDontLaunchBugReporter] Exiting without the bug reporter. Application will exit with return code 0
